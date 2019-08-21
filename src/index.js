@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppLang from './lang-context/AppLang';
+import App from './playingwithdanger/App';
 import './index.css';
 
-ReactDOM.render(<AppLang />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
