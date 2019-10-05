@@ -1,5 +1,6 @@
 import React from 'react';
 import Tabs from './state/Tabs';
+import Messages from './Messages'
 
 const tabsProp = [
   { name: 'First tab',
@@ -15,6 +16,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Tabs tabs={tabsProp}/>
+        <Messages />
       </div>
     );
   }
