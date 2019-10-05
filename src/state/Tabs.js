@@ -2,16 +2,6 @@ import React from 'react'
 
 class Tabs extends React.Component {
     static defaultProps = { tabs: [] };
-<<<<<<< HEAD
-    render() {
-        const buttons = this.props.tabs.map((tab, index) => {
-            return (
-                <button key={index}>
-                    {tab.name}
-                </button>
-            )
-        })
-=======
     state = {
         currentTabIndex: 0
     }
@@ -34,7 +24,6 @@ class Tabs extends React.Component {
         )
     }
     render() {
->>>>>>> 353fb2f0f18df3af84ff72959c56ce44fd74a7ea
         return (
             <div>
                 {this.renderButtons()}
